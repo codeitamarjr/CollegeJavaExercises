@@ -2,7 +2,7 @@ public class SavingsBalance
 {
     public static void main(String[] args) // Every program must have a main method, it's where the program start.
 {
-    int itamarSavings = 1035;
+    int itamarSavings = 9035;
     byte itamarWorkHoursWeek = 29;
     double itamarWorkRate = 11.2;
     int itamarRent = 450;
