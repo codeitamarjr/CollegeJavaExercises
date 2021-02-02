@@ -16,7 +16,7 @@ public class SavingsBalance
     System.out.println("--------------  |  Savings Money  |   -----------------");
     System.out.println("-------------------------------------------------------");
     System.out.println("-----Here you can see how you can reach your goal------");
-    System.out.println("-------------------------------------------------------\n"); //It's just ot be confortable to read.
+    System.out.println("-------------------------------------------------------\n");  //It's just ot be confortable to read.
 
 
       double goal;
