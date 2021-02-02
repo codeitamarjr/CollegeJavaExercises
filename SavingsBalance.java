@@ -12,6 +12,7 @@ public class SavingsBalance
     int variableRent, variableShoppingWeek;
     boolean variableStudant= true; // is to define and hold true or false for a variable
     String variableName="Itamar";
+    final int DAYS_IN_THREE_MONTH = 30*3; //it's a constant that store only a single value
 
     System.out.println("-------------------------------------------------------");
     System.out.println("--------------  |  Savings Money  |   -----------------");
