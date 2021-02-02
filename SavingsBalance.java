@@ -8,9 +8,10 @@ public class SavingsBalance
 
     int variableSavings;
     byte variableWorkHoursWeek;
-    double variableWorkRate;
+    double variableWorkRate,goal;
     int variableRent, variableShoppingWeek;
     boolean variableStudant= true; // is to define and hold true or false for a variable
+    String variableName="Itamar";
 
     System.out.println("-------------------------------------------------------");
     System.out.println("--------------  |  Savings Money  |   -----------------");
@@ -19,7 +20,8 @@ public class SavingsBalance
     System.out.println("-------------------------------------------------------\n");  //It's just ot be confortable to read.
 
 
-      double goal;
+      //System.out.println("Let's start: What's your name?");
+
       System.out.println("Let's start: What's your goal?");
       goal = kb.nextDouble();
       System.out.println("How much do you have on your account?");
@@ -35,7 +37,7 @@ public class SavingsBalance
 
 
     System.out.println("----------------------Resume---------------------------");
-    System.out.format("Itamar base in your data, your actual saving is %.2f€\n", (double)variableSavings);
+    System.out.format(variableName+" base in your data, your actual saving is %.2f€\n", (double)variableSavings);
 
 
     double variableWorkMonthIncome = variableWorkRate * (double)variableWorkHoursWeek * 4; //
@@ -45,7 +47,7 @@ public class SavingsBalance
     System.out.println("-------------------------------------------------------");
     double variableSavings3Month = ((variableWorkMonthIncome*3) - (variableSpendMont*3)) +variableSavings;
     double variableSpareMoney = (variableWorkMonthIncome*3) - (variableSpendMont*3);
-    System.out.format("Itamar savings after 3 month is %.2f€(+%.2f€).\n", variableSavings3Month, variableSpareMoney); //\n same as println
+    System.out.format(variableName+" savings after 3 month is %.2f€(+%.2f€).\n", variableSavings3Month, variableSpareMoney); //\n same as println
     System.out.println("-------------------------------------------------------");
     System.out.println("You're a studant? "+variableStudant);
 
