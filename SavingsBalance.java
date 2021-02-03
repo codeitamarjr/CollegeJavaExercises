@@ -1,4 +1,11 @@
 import java.util.Scanner; //means that I'm using a tool from outside java
+/**
+*This is a program to show if you can reach an goal with base in your earnings and spenses.
+*
+*@author Itamar Junior
+*@version 1.0
+*/
+
 
 public class SavingsBalance
 {
@@ -26,7 +33,7 @@ public class SavingsBalance
 
       System.out.println("In this program you can see if it's possible\nto save money for a especific goal, let's start\nwith what is your goal?");
       goal = kb.nextDouble();
-      System.out.println("How much do you have on your account?");
+      System.out.println("Please imput your current saving?");
       variableSavings = kb.nextInt();
       System.out.println("How many hour do you work per week?");
       variableWorkHoursWeek = kb.nextByte();
@@ -49,7 +56,7 @@ public class SavingsBalance
     System.out.println("-------------------------------------------------------");
     double variableSavings3Month = ((variableWorkMonthIncome*3) - (variableSpendMont*3)) +variableSavings;
     double variableSpareMoney = (variableWorkMonthIncome*3) - (variableSpendMont*3);
-    System.out.format(variableName+" savings after 3 month is %.2f€(+%.2f€).\n", variableSavings3Month, variableSpareMoney); //\n same as println
+    System.out.format("  "+variableName+" savings after 3 month is %.2f€.\n", variableSavings3Month); //\n same as println
     System.out.println("-------------------------------------------------------\n");
     System.out.println("You're a studant? "+variableStudant);
 
