@@ -11,7 +11,7 @@ public class SavingsBalance
 {
     public static void main(String[] args) // Every program must have a main method, it's where the program start.
     {
-      Scanner kb = new Scanner(System.in); // I'm creating a new object to the code.
+      Scanner kb = new Scanner(System.in); // I'm creating a new object to the code and System.in means keyboard
 
     int variableSavings;
     byte variableWorkHoursWeek;
@@ -19,7 +19,7 @@ public class SavingsBalance
     int variableRent, variableShoppingWeek;
     boolean variableStudant= true; // is to define and hold true or false for a variable
     String variableName;
-    final int DAYS_IN_THREE_MONTH = 30*3; //it's a constant that store only a single value
+    //final int DAYS_IN_THREE_MONTH = 30*3; //it's a constant that store only a single value
 
     System.out.println("-------------------------------------------------------");
     System.out.println("--------------  |  Savings Money  |   -----------------");
@@ -55,7 +55,7 @@ public class SavingsBalance
 
     System.out.println("-------------------------------------------------------");
     double variableSavings3Month = ((variableWorkMonthIncome*3) - (variableSpendMont*3)) +variableSavings;
-    double variableSpareMoney = (variableWorkMonthIncome*3) - (variableSpendMont*3);
+    //double variableSpareMoney = (variableWorkMonthIncome*3) - (variableSpendMont*3);
     System.out.format("  "+variableName+" savings after 3 month is %.2f€.\n", variableSavings3Month); //\n same as println
     System.out.println("-------------------------------------------------------\n");
     System.out.println("You're a studant? "+variableStudant);
