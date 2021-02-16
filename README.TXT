@@ -1,11 +1,14 @@
 ------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
+This is the exercises of my college, I'm using git hub to share and 
+keep a back up of everthing.
 ------------------------------------------------------------------------
 
-PROJECT TITLE:Hello World
+PROJECT TITLE:College Exercises
 PURPOSE OF PROJECT: Learn Java.
 VERSION or DATE: 1.0 01/02/2021
+<<<<<<< HEAD
 HOW TO START THIS PROJECT:
 AUTHORS: Itamar Junior
+=======
+AUTHORS: Itamar Junior
+>>>>>>> c45dd7a89cfb6cbe123afb312ba0ba34441b7d75
