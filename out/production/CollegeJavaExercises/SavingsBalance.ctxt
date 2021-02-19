@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=SavingsBalance
+comment0.text=\r\nThis\ is\ a\ program\ to\ show\ if\ you\ can\ reach\ an\ goal\ with\ base\ in\ your\ earnings\ and\ spenses.\r\n\r\n@author\ Itamar\ Junior\r\n@version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
