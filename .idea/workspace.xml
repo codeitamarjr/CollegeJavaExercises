@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd315479-61ea-406b-8843-cd84d94c50cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CollegeJavaExercises.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlowChartToJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/W6CheckTheBalanceToRelax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/README.TXT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +17,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1oswmZevO9qgoMYf0h2vbpMBiFL" />
@@ -34,7 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.W6CheckTheBalanceToRelax">
+  <component name="RunManager" selected="Application.AreaOfACircle">
     <configuration name="AreaOfACircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="15" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -108,8 +103,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.W6CheckTheBalanceToRelax" />
         <item itemvalue="Application.AreaOfACircle" />
+        <item itemvalue="Application.W6CheckTheBalanceToRelax" />
         <item itemvalue="Application.ExerciseMoneyToEuroAndCents" />
         <item itemvalue="Application.financeAssistant" />
         <item itemvalue="Application.FlowChartToJava" />
@@ -125,6 +120,21 @@
       <option name="presentableId" value="Default" />
       <updated>1614088767867</updated>
     </task>
+    <task id="LOCAL-00001" summary=".If and Else...">
+      <created>1614095706383</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614095706383</updated>
+    </task>
+    <task id="LOCAL-00002" summary=".If and Else...">
+      <created>1614095792843</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614095792843</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,5 +159,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=".If and Else..." />
+    <option name="LAST_COMMIT_MESSAGE" value=".If and Else..." />
   </component>
 </project>
